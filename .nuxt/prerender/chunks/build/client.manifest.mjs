@@ -1,4 +1,4 @@
-export default {
+const client_manifest = {
   "_DRuXpZCf.js": {
     "resourceType": "script",
     "module": true,
@@ -76,4 +76,7 @@ export default {
     "prefetch": true,
     "preload": true
   }
-}
+};
+
+export { client_manifest as default };
+//# sourceMappingURL=client.manifest.mjs.map
