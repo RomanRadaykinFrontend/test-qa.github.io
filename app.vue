@@ -14,8 +14,6 @@
 </template>
 
 <script lang="ts" setup>
-
-
 const correctPass = '!!vk-forever12'
 const regexDict = {
   phone: /^\+?\d{5,15}$/,
