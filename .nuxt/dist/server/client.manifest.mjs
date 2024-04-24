@@ -1,10 +1,10 @@
 export default {
-  "_DLFw25CD.js": {
+  "_QWrr25ip.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DLFw25CD.js",
+    "file": "QWrr25ip.js",
     "name": "_plugin-vue_export-helper",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
@@ -15,13 +15,13 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DGNEnaSP.js",
+    "file": "C_OGLnX2.js",
     "name": "error-404",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_DLFw25CD.js"
+      "_QWrr25ip.js"
     ],
     "css": []
   },
@@ -36,12 +36,12 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "H3a6EEmF.js",
+    "file": "BIf6po2f.js",
     "name": "error-500",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_DLFw25CD.js",
+      "_QWrr25ip.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "css": []
@@ -57,7 +57,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DIdtH6OV.js",
+    "file": "CkAU4urF.js",
     "name": "entry",
     "src": "node_modules/nuxt/dist/app/entry.js",
     "isEntry": true,
