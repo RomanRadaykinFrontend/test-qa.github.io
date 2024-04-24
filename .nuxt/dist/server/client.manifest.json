@@ -1,10 +1,10 @@
 {
-  "_CZKsQmP0.js": {
+  "_B2Pf77Lu.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CZKsQmP0.js",
+    "file": "B2Pf77Lu.js",
     "name": "_plugin-vue_export-helper",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
@@ -15,15 +15,17 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "Diorcj8k.js",
+    "file": "DtEJj9fW.js",
     "name": "error-404",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_CZKsQmP0.js"
+      "_B2Pf77Lu.js"
     ],
-    "css": []
+    "css": [
+      "error-404.JekaaCis.css"
+    ]
   },
   "error-404.JekaaCis.css": {
     "file": "error-404.JekaaCis.css",
@@ -36,15 +38,17 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CK063q-I.js",
+    "file": "D4pEkkIP.js",
     "name": "error-500",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_CZKsQmP0.js",
+      "_B2Pf77Lu.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
-    "css": []
+    "css": [
+      "error-500.CNP9nqm1.css"
+    ]
   },
   "error-500.CNP9nqm1.css": {
     "file": "error-500.CNP9nqm1.css",
@@ -57,7 +61,7 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CO-mOuTW.js",
+    "file": "jx3JwIMo.js",
     "name": "entry",
     "src": "node_modules/nuxt/dist/app/entry.js",
     "isEntry": true,
@@ -67,8 +71,7 @@
     ],
     "css": [
       "entry.X919rw2M.css"
-    ],
-    "_globalCSS": true
+    ]
   },
   "entry.X919rw2M.css": {
     "file": "entry.X919rw2M.css",
