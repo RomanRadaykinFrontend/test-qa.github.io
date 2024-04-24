@@ -14,6 +14,11 @@ import "radix3";
 import "defu";
 import "klona";
 import "devalue";
+import "@vueuse/core";
+import "@vue/shared";
+import "lodash-unified";
+import "async-validator";
+import "@ctrl/tinycolor";
 const nuxtLinkDefaults = { "componentName": "NuxtLink" };
 const firstNonUndefined = (...args) => args.find((arg) => arg !== void 0);
 // @__NO_SIDE_EFFECTS__
@@ -297,4 +302,4 @@ const error404 = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-7
 export {
   error404 as default
 };
-//# sourceMappingURL=error-404-BpZhYtjD.js.map
+//# sourceMappingURL=error-404-D5R6Nngb.js.map

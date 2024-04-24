@@ -1,19 +1,16 @@
 <template>
-  <client-only>
-    <div class="wraaper">
-      <h3>Форма входа</h3>
-      <el-form ref="form" :rules="rules" label-position="top" :model="model">
-        <el-form-item :class="createClass('login-wrapper')" label="Лагин" prop="login">
-          <el-input :class="createClass('login')" v-model="model.login"></el-input>
-        </el-form-item>
-        <el-form-item :class="createClass('password-wrapper')" label="Пароль" prop="password">
-          <el-input :class="createClass('password')" type="password" clearable v-model="model.password"></el-input>
-        </el-form-item>
-      </el-form>
-      <el-button @click="login">Войти</el-button>
-    </div>
-  </client-only>
-
+  <div class="wraaper">
+    <h3>Форма входа</h3>
+    <el-form ref="form" :rules="rules" label-position="top" :model="model">
+      <el-form-item :class="createClass('login-wrapper')" label="Лагин" prop="login">
+        <el-input :class="createClass('login')" v-model="model.login"></el-input>
+      </el-form-item>
+      <el-form-item :class="createClass('password-wrapper')" label="Пароль" prop="password">
+        <el-input :class="createClass('password')" type="password" clearable v-model="model.password"></el-input>
+      </el-form-item>
+    </el-form>
+    <el-button @click="login">Войти</el-button>
+  </div>
 </template>
 
 <script lang="ts" setup>
