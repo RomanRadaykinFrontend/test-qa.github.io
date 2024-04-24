@@ -1,4 +1,4 @@
-const client_manifest = {
+export default {
   "_DLFw25CD.js": {
     "resourceType": "script",
     "module": true,
@@ -76,7 +76,4 @@ const client_manifest = {
     "prefetch": true,
     "preload": true
   }
-};
-
-export { client_manifest as default };
-//# sourceMappingURL=client.manifest.mjs.map
+}
