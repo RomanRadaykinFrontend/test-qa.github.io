@@ -2,11 +2,11 @@
   <div class="wraaper">
     <h3>Форма входа</h3>
     <el-form ref="form" :rules="rules" label-position="top" :model="model">
-      <el-form-item label="Лагин" prop="login">
-        <el-input v-model="model.login"></el-input>
+      <el-form-item :class="createClass('login-wrapper')" label="Лагин" prop="login">
+        <el-input :class="createClass('login')" v-model="model.login"></el-input>
       </el-form-item>
-      <el-form-item label="Пароль" prop="password">
-        <el-input type="password" clearable v-model="model.password"></el-input>
+      <el-form-item :class="createClass('password-wrapper')" label="Пароль" prop="password">
+        <el-input :class="createClass('password')" type="password" clearable v-model="model.password"></el-input>
       </el-form-item>
     </el-form>
     <el-button @click="login">Войти</el-button>
@@ -27,6 +27,10 @@ const model = ref({
 })
 
 const form = ref<null | HTMLFormElement>(null)
+
+const createClass = (str: string) => {
+  return `${str}${Math.random()}`
+}
 
 const validateLog = (rule: any, value: any, callback: any) => {
   if (!value || value.trim === ''){

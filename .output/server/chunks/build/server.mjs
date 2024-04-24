@@ -3604,6 +3604,9 @@ const _sfc_main$2 = /* @__PURE__ */ defineComponent({
       password: ""
     });
     const form = ref(null);
+    const createClass = (str) => {
+      return `${str}${Math.random()}`;
+    };
     const validateLog = (rule, value, callback) => {
       if (!value || value.trim === "") {
         callback(new Error("Обязательное поле"));
@@ -3676,33 +3679,38 @@ const _sfc_main$2 = /* @__PURE__ */ defineComponent({
         default: withCtx((_, _push2, _parent2, _scopeId) => {
           if (_push2) {
             _push2(ssrRenderComponent(_component_el_form_item, {
+              class: createClass("login-wrapper"),
               label: "Лагин",
               prop: "login"
             }, {
               default: withCtx((_2, _push3, _parent3, _scopeId2) => {
                 if (_push3) {
                   _push3(ssrRenderComponent(_component_el_input, {
+                    class: createClass("login"),
                     modelValue: unref(model).login,
                     "onUpdate:modelValue": ($event) => unref(model).login = $event
                   }, null, _parent3, _scopeId2));
                 } else {
                   return [
                     createVNode(_component_el_input, {
+                      class: createClass("login"),
                       modelValue: unref(model).login,
                       "onUpdate:modelValue": ($event) => unref(model).login = $event
-                    }, null, 8, ["modelValue", "onUpdate:modelValue"])
+                    }, null, 8, ["class", "modelValue", "onUpdate:modelValue"])
                   ];
                 }
               }),
               _: 1
             }, _parent2, _scopeId));
             _push2(ssrRenderComponent(_component_el_form_item, {
+              class: createClass("password-wrapper"),
               label: "Пароль",
               prop: "password"
             }, {
               default: withCtx((_2, _push3, _parent3, _scopeId2) => {
                 if (_push3) {
                   _push3(ssrRenderComponent(_component_el_input, {
+                    class: createClass("password"),
                     type: "password",
                     clearable: "",
                     modelValue: unref(model).password,
@@ -3711,11 +3719,12 @@ const _sfc_main$2 = /* @__PURE__ */ defineComponent({
                 } else {
                   return [
                     createVNode(_component_el_input, {
+                      class: createClass("password"),
                       type: "password",
                       clearable: "",
                       modelValue: unref(model).password,
                       "onUpdate:modelValue": ($event) => unref(model).password = $event
-                    }, null, 8, ["modelValue", "onUpdate:modelValue"])
+                    }, null, 8, ["class", "modelValue", "onUpdate:modelValue"])
                   ];
                 }
               }),
@@ -3724,31 +3733,35 @@ const _sfc_main$2 = /* @__PURE__ */ defineComponent({
           } else {
             return [
               createVNode(_component_el_form_item, {
+                class: createClass("login-wrapper"),
                 label: "Лагин",
                 prop: "login"
               }, {
                 default: withCtx(() => [
                   createVNode(_component_el_input, {
+                    class: createClass("login"),
                     modelValue: unref(model).login,
                     "onUpdate:modelValue": ($event) => unref(model).login = $event
-                  }, null, 8, ["modelValue", "onUpdate:modelValue"])
+                  }, null, 8, ["class", "modelValue", "onUpdate:modelValue"])
                 ]),
                 _: 1
-              }),
+              }, 8, ["class"]),
               createVNode(_component_el_form_item, {
+                class: createClass("password-wrapper"),
                 label: "Пароль",
                 prop: "password"
               }, {
                 default: withCtx(() => [
                   createVNode(_component_el_input, {
+                    class: createClass("password"),
                     type: "password",
                     clearable: "",
                     modelValue: unref(model).password,
                     "onUpdate:modelValue": ($event) => unref(model).password = $event
-                  }, null, 8, ["modelValue", "onUpdate:modelValue"])
+                  }, null, 8, ["class", "modelValue", "onUpdate:modelValue"])
                 ]),
                 _: 1
-              })
+              }, 8, ["class"])
             ];
           }
         }),
