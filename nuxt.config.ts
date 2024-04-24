@@ -4,4 +4,8 @@ export default defineNuxtConfig({
   modules: [
     '@element-plus/nuxt'
   ],
+  target: 'static',
+  router: {
+    base: '/test-qa.github.io/',
+  },
 })

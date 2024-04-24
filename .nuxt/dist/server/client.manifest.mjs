@@ -1,10 +1,10 @@
 export default {
-  "_BzeQWRsX.js": {
+  "_C3fzG8RL.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BzeQWRsX.js",
+    "file": "C3fzG8RL.js",
     "name": "_plugin-vue_export-helper",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
@@ -15,13 +15,13 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "B_aGf8g1.js",
+    "file": "BlUI7aD7.js",
     "name": "error-404",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_BzeQWRsX.js"
+      "_C3fzG8RL.js"
     ],
     "css": []
   },
@@ -36,12 +36,12 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "qZjAPyG1.js",
+    "file": "w40hAYFE.js",
     "name": "error-500",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_BzeQWRsX.js",
+      "_C3fzG8RL.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "css": []
@@ -57,7 +57,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "D4EGI7gU.js",
+    "file": "cf_jn8Fc.js",
     "name": "entry",
     "src": "node_modules/nuxt/dist/app/entry.js",
     "isEntry": true,
